@@ -10,28 +10,50 @@
     <title>Ping-Pong</title>
   </head>
   <body>
-    <div class="container">
-      <h1>Let's Play The Ping-Pong Number Game</h1>
-      <p>Rules:
-      <p>Ping Pong will count up to your number from 1 with the following exceptions:</p>
-      <ol>
-        <li>Numbers divisible by 3 become "ping"</li>
-        <li>Numbers divisible by 5 become "pong"</li>
-        <li>Numbers divisible by 15 become "pingpong"</li>
-      </ol>
-
-      <form id="pingPong">
-        <div class="form-group">
-          <label for="userNumber">Enter a number:</label>
-          <input id="userNumber" type="text">
+    <div id="headerBox">
+      <h1>Ping-Pong</h1>
+    </div>
+    <div id="bodyBox">
+      <div class="row">
+        <div class="col-sm-3">
+          <div id="bodyLeft">
+            <h4>About Ping Pong</h4>
+            <p class="textYellow">Created by:</p>
+            <p class="textWhite">Safiy Cham</p>
+            <p class="textYellow">GitHub Username/URL:</p>
+            <p class="textBlue">safiyc</p>
+            <p class="textYellow">Level 2 Test for:</p>
+            <p class="textWhite">Javascript</p>
+          </div>
         </div>
+        <div class="col-sm-9">
+          <div id="bodyRight">
+            <h3>Let's play!</h3>
+            <h5>Rules:</h5>
+            <p>
+              Ping Pong will count up to your number from 1 with the following exceptions:
+            </p>
+            <ol>
+              <li>Numbers divisible by 3 become "ping"</li>
+              <li>Numbers divisible by 5 become "pong"</li>
+              <li>Numbers divisible by 3 and 5 become "pingpong"</li>
+            </ol>
 
-        <button type="submit" class="btn">Ping Pong!</button>
-      </form>
+            <form id="pingPong" class="form-inline">
+              <div class="form-group">
+                <label for="userNumber"><span class="labelTextBold"</span>Enter your number here:</label>
+                <input id="userNumber" type="text">
+              </div>
 
-      <div id="displayResult">
-        <ul>
-        </ul>
+              <button type="submit" class="btn btn-default">Ping Pong!</button>
+            </form>
+
+            <div id="displayResult">
+              <ul>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </body>

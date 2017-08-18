@@ -1,4 +1,54 @@
 #displayResult {
   display: none;
-  background-color: lightblue;
+}
+
+#headerBox {
+  background-color: rgb(240, 222, 179);
+  width: 100%;
+  height: 13vh;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 4vh;
+  font-size: 45px;
+}
+
+#bodyBox {
+  background-color: rgb(229, 229, 229);
+  width: 100%;
+}
+
+#bodyLeft {
+  background-color: rgb(160, 196, 155);
+  margin-top: 2vh;
+  padding-top: 2vh;
+  padding-left: 1vw;
+  height: 84vh;
+}
+
+#bodyRight {
+  padding-top: 3vh;
+  padding-left: 1vw;
+  margin-top: 2vh;
+}
+
+.labelTextBold {
+  font-weight: bold;
+}
+
+.textYellow {
+  color: rgb(240, 222, 179);
+}
+
+.textWhite {
+  color: white;
+}
+
+.textBlue {
+  color: rgb(72, 118, 191);
+}
+
+button {
+  margin-left: 4px;
 }
