@@ -1,3 +1,12 @@
+// business logic
+var resultPingPong = function(input) {
+  var result = [];
+  for (var i = 0 ; i <= input; i++) {
+    result.push(i);
+  }
+  return result;
+};
+
 // user-interface logic
 $(document).ready(function() {
   $("form#pingPong").submit(function(event) {
@@ -5,9 +14,12 @@ $(document).ready(function() {
     $("ul").empty();
     $("#displayResult").hide();
     var userNumber = parseInt($("input#userNumber").val());
-    var result = userNumber;
+    var displayResult = resultPingPong(userNumber);
 
-    $("ul").append("<li>" + result + "</li>");
+    for (var i = 1; i <= userNumber; i++) {
+      $("ul").append("<li>" + displayResult[i] + "</li>");
+    };
+
     $("#displayResult").show();
   });
 });

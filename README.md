@@ -11,7 +11,11 @@ Ping-Pong displays a range of numbers from 1 to the user input's number. Numbers
 
 ## Specifications
 
-* It can count up to the provided number.
+* It cannot accept characters not numbers.
+  * Input: "Hey!""
+  * Output: "Not a number. Please enter a number."
+
+* It can count up to the provided number, starting from 1.
   * Input: 6
   * Output: [1, 2, 3, 4, 5, 6]
 
