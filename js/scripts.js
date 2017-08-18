@@ -2,6 +2,9 @@
 var resultPingPong = function(input) {
   var result = [];
   for (var i = 0 ; i <= input; i++) {
+    if (i % 15 === 0) {
+      result.push("ping-pong");
+    } else
     result.push(i);
   }
   return result;
