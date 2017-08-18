@@ -24,13 +24,13 @@ h1 {
   margin-top: 2vh;
   padding-top: 2vh;
   padding-left: 1vw;
-  height: 84vh;
+  height: 85vh;
 }
 
 #bodyRight {
+  margin-top: 2vh;
   padding-top: 3vh;
   padding-left: 1vw;
-  margin-top: 2vh;
 }
 
 .labelTextBold {
